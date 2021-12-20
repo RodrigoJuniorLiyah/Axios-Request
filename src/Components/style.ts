@@ -74,5 +74,40 @@ export const Body = styled.div`
         color: #FFF;
       }
     }
+
+    .body {
+      display: flex;
+      /* padding: 15px; */
+      border: 1px solid #1976D2;
+    }
+
+    .body > div {
+      flex: 1;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      color: #555555;
+    }
+
+    .body .salesBySeller {
+      
+    }
+
+    .body > div > p {
+      text-align: center;
+      width: 100%;
+      border: 1px solid #1976D2;
+      border-bottom: 0.5px;
+    }
+
+    .body > div > p:last-child {
+      border-bottom: 1px solid #1976D2;
+    }
   }
 `;
